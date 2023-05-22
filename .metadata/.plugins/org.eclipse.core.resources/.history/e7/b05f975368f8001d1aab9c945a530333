@@ -1,0 +1,8 @@
+package kr.co.likedeer.model;
+
+public class Test2Service {
+	public int minus(HttpServletRequest request) {
+		int result = number1 - number2;
+		return result;
+	}
+}
